@@ -11,7 +11,6 @@ One function per operation, in order.
 
 
 import math
-
 def add(a, b):
     return a+b
 
@@ -34,4 +33,3 @@ def log(a, b):
 
 def exp(a, b):
     return a**b
-
