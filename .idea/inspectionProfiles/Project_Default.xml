@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="alpaca-trade-api" />
+          <option value="backtesting" />
+          <option value="bokeh" />
+          <option value="deprecation" />
+          <option value="Jinja2" />
+          <option value="llvmlite" />
+          <option value="MarkupSafe" />
+          <option value="narwhals" />
+          <option value="numba" />
+          <option value="pandas-ta" />
+          <option value="PyYAML" />
+          <option value="tornado" />
+          <option value="websocket-client" />
+          <option value="xyzservices" />
+          <option value="aiohappyeyeballs" />
+          <option value="aiohttp" />
+          <option value="aiosignal" />
+          <option value="alpaca-py" />
+          <option value="annotated-types" />
+          <option value="attrs" />
+          <option value="beautifulsoup4" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="contourpy" />
+          <option value="curl_cffi" />
+          <option value="frozendict" />
+          <option value="frozenlist" />
+          <option value="idna" />
+          <option value="markdown-it-py" />
+          <option value="mdurl" />
+          <option value="msgpack" />
+          <option value="multidict" />
+          <option value="multitasking" />
+          <option value="numpy" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="peewee" />
+          <option value="pillow" />
+          <option value="platformdirs" />
+          <option value="propcache" />
+          <option value="protobuf" />
+          <option value="pycparser" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="pyfiglet" />
+          <option value="Pygments" />
+          <option value="python-dateutil" />
+          <option value="pytz" />
+          <option value="requests" />
+          <option value="rich" />
+          <option value="six" />
+          <option value="soupsieve" />
+          <option value="sseclient-py" />
+          <option value="ta" />
+          <option value="tqdm" />
+          <option value="typing-inspection" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="websockets" />
+          <option value="yarl" />
+          <option value="yfinance" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
