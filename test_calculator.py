@@ -26,20 +26,20 @@ class TestCalculator(unittest.TestCase):
     # ##########################
 
     ######## Partner 2
-    # def test_divide_by_zero(self): # 1 assertion
-    #     # call division function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     div(0, 5)
+    def test_divide_by_zero(self): # 1 assertion
+        self.assertRaises(ZeroDivisionError, div, 0, 5)
+
+
+    def test_logarithm(self): # 3 assertions
+        self.assertEqual(calculator.log(2, 2), 1)
+        self.assertEqual(calculator.log(100, 10), 2)
+        self.assertAlmostEqual(calculator.log(8, 2), 3)
     #     fill in code
 
-    # def test_logarithm(self): # 3 assertions
-    #     fill in code
+    def test_log_invalid_base(self): # 1 assertion
+        self.assertRaises(ValueError, calculator.log, 10, 0)
 
-    # def test_log_invalid_base(self): # 1 assertion
-    #     # use same technique from test_divide_by_zero
-    #     fill in code
-    # ##########################
-    
+
     ######## Partner 1
     # def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
