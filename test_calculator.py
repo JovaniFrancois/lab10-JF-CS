@@ -1,5 +1,5 @@
 import unittest
-from calculator import *
+import calculator
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
@@ -11,8 +11,10 @@ class TestCalculator(unittest.TestCase):
     # ##########################
 
     ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     fill in code
+     def test_multiply(self):
+        set.assertEqual(calculator.mul(3, 4), 12)
+        self.assertEqual(calculator.mul(-2, 5), -10)
+        self.assertEqual(calculator.mul(0, 100), 0)
 
     # def test_divide(self): # 3 assertions
     #     fill in code
