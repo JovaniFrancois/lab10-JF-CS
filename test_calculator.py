@@ -3,16 +3,21 @@ import calculator
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
-    # def test_add(self): # 3 assertions
-    #     fill in code
+    def test_add(self): # 3 assertions
+        self.assertEqual(calculator.add(1, 2), 3)
+        self.assertEqual(calculator.add(5, 3), 8)
+        self.assertEqual(calculator.add(1, 9), 10)
 
-    # def test_subtract(self): # 3 assertions
-    #     fill in code
-    # ##########################
+
+    def test_subtract(self): # 3 assertions
+        self.assertEqual(calculator.sub(5, 3), 2)
+        self.assertEqual(calculator.sub(5, 4), 1)
+        self.assertEqual(calculator.sub(10, 6), 4)
+
 
     ######## Partner 1
      def test_multiply(self):
-        set.assertEqual(calculator.mul(3, 4), 12)
+        self.assertEqual(calculator.mul(3, 4), 12)
         self.assertEqual(calculator.mul(-2, 5), -10)
         self.assertEqual(calculator.mul(0, 100), 0)
 
