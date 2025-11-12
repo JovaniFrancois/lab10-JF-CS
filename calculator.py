@@ -34,13 +34,11 @@ def log(a, b):
 
         raise ValueError ("Logarithm of zero is not allowed")
 
-        raise ValueError ("Logarithm of zero")
-
     return math.log(b,a)
 
 def exp(a, b):
     return a**b
 
 
-print (log(1, 2))
+
 
