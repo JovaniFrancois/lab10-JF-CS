@@ -9,7 +9,9 @@ One function per operation, in order.
 """
 
 # First example
-
+#Cecil Took Role 2
+#Jovani Took Role 1
+#Git hub repository : https://github.com/JovaniFrancois/lab10-JF-CS
 
 
 import math
