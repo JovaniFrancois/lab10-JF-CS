@@ -44,4 +44,11 @@ def exp(a, b):
     return a**b
 
 
+def square_root(x):
+        if x < 0:
+            raise ValueError("Cannot take square root of a negative number")
+        return math.sqrt(x)
+def hypotenuse(a, b):
+    return math.sqrt(a * a + b * b)
+
 
