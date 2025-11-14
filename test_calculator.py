@@ -16,7 +16,7 @@ class TestCalculator(unittest.TestCase):
 
 
     ######## Partner 1
-     def test_multiply(self):
+    def test_multiply(self):
         self.assertEqual(calculator.mul(3, 4), 12)
         self.assertEqual(calculator.mul(-2, 5), -10)
         self.assertEqual(calculator.mul(0, 100), 0)
