@@ -43,6 +43,5 @@ def logarithm(x, base):
 def exp(a, b):
     return a**b
 
-def hypotenuse(a, b):
 
 
