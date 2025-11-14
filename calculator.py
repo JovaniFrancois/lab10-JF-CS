@@ -32,11 +32,10 @@ def div(a, b):
 
 
 def logarithm(x, base):
-    if b <= 0:
-
-        raise ValueError ("Logarithm of zero or negative number is not allowed")
-    if a<=0 or a ==1:
-        raise ValueError ("Logarithm must be positive and not equal to 1")
+    if base <= 0 or base == 1:
+        raise ValueError ("Invalid Base")
+    if x<=0:
+        raise ValueError ("Invalid value for logarithm")
 
     return math.log(x,base)
 
