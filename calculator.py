@@ -1,4 +1,4 @@
-
+#https://github.com/JovaniFrancois/lab10-JF-CS
 
 """
 calculator.py
@@ -18,7 +18,7 @@ import math
 def add(a, b):
     return a+b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -27,22 +27,22 @@ def mul(a, b):
 def div(a, b):
     if a == 0:
         raise ZeroDivisionError ("Division by zero is not allowed")
-    return b/a
+    return a/b
 
 
 
-def log(a, b):
+def logarithm(x, base):
     if b <= 0:
 
         raise ValueError ("Logarithm of zero or negative number is not allowed")
     if a<=0 or a ==1:
         raise ValueError ("Logarithm must be positive and not equal to 1")
 
-    return math.log(b,a)
+    return math.log(x,base)
 
 def exp(a, b):
     return a**b
 
-
+def hypotenuse(a, b):
 
 

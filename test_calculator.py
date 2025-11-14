@@ -1,6 +1,7 @@
+#https://github.com/JovaniFrancois/lab10-JF-CS
 import unittest
 import calculator
-#https://github.com/JovaniFrancois/lab10-JF-CS
+
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self): # 3 assertions
@@ -10,9 +11,9 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(calculator.sub(5, 3), 2)
-        self.assertEqual(calculator.sub(5, 4), 1)
-        self.assertEqual(calculator.sub(10, 6), 4)
+        self.assertEqual(calculator.subtract(5, 3), 2)
+        self.assertEqual(calculator.subtract(5, 4), 1)
+        self.assertEqual(calculator.subtract(10, 6), 4)
 
 
     ######## Partner 1
@@ -29,13 +30,13 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
-        self.assertRaises(ZeroDivisionError, div, 0, 5)
+        self.assertRaises(ZeroDivisionError, calculator.div, 5, 0)
 
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(calculator.log(2, 2), 1)
-        self.assertEqual(calculator.log(100, 10), 2)
-        self.assertAlmostEqual(calculator.log(8, 2), 3)
+        self.assertEqual(calculator.logarithm(2, 2), 1)
+        self.assertEqual(calculator.logarithm(100, 10), 2)
+        self.assertAlmostEqual(calculator.logarithm(8, 2), 3)
     #     fill in code
 
     def test_log_invalid_base(self): # 1 assertion
