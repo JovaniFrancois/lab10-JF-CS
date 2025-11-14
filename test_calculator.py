@@ -1,4 +1,6 @@
 #https://github.com/JovaniFrancois/lab10-JF-CS
+#Cecil Took Role 2
+#Jovani Took Role 1
 import unittest
 import calculator
 
